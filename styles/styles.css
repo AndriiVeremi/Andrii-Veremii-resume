@@ -216,7 +216,9 @@ h6 {
 
 .contacts,
 .tech-skills,
-.soft-skills {
+.soft-skills,
+.languages,
+.interests {
   margin-left: 40px;
 }
 
@@ -246,7 +248,9 @@ h6 {
   color: #fb6d3a;
 }
 
-.tech-skills {
+.tech-skills,
+.soft-skills,
+.languages {
   margin-bottom: 45px;
 }
 
@@ -256,20 +260,27 @@ h6 {
   padding-left: 15px;
 }
 
+
 .tech-skills-list,
-.soft-skills-list {
+.soft-skills-list,
+.languages-list,
+.interests-list {
   color: #ffffff;
   padding: 0;
   margin-left: 17px;
 }
 
+.languages-item,
 .tech-skills-item,
-.soft-skills-item {
+.soft-skills-item,
+.interests-item {
   color: #fb6d3a;
 }
 
+.languages-text,
 .tech-skills-text,
-.soft-skills-text {
+.soft-skills-text,
+.interests-text {
   font-family: "Comfortaa", monospace;
   font-weight: 500;
   font-size: 14px;
