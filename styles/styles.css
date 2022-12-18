@@ -327,3 +327,41 @@ h6 {
   border-radius: 5px;
   background-color: #fff;
 }
+
+
+.social .sidebar-title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.social-item {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.social-link {
+  display: block;
+  margin-top: 10px;
+  fill: #303030;
+  text-align: center;
+}
+
+.social-item:hover .social-link {
+  fill: #ff6c00;
+}
