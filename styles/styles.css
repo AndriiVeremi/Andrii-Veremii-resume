@@ -78,8 +78,9 @@ h6 {
 /* projects_title styles */
 .title {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 30px;
     line-height: 27px;
+    text-decoration: underline;
     color: #000000;
     margin-bottom: 20px;
 }
@@ -106,7 +107,15 @@ h6 {
 }
 
 .projects-link {
+    font-family: 'Comfortaa', monospace; 
+    font-weight: 600;
+    color: #FB6D3A;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+.projects-link:hover {
+    color: #595959;
 }
 
 .projects-bracket {
@@ -167,7 +176,7 @@ h6 {
 
 /* education styles */
 .departament {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .education-info {
@@ -185,6 +194,15 @@ h6 {
     line-height: 17px;
     color: #000000;
     margin-bottom: 10px;
+}
+
+.education-prof-link {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.education-prof-link:hover {
+    color: #FB6D3A;
 }
 
 /* sidebar styles */
