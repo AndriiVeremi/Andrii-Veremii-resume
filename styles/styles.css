@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f5f7fa;
+  background-color: #dfe0e3;
 }
 
 /* Reset styles */
@@ -34,6 +34,7 @@ h6 {
 
 /* main content */
 .main-content {
+  border-radius: 10px;
   background-color: #fff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 105px 90px;
@@ -204,14 +205,17 @@ h6 {
 
 /* sidebar styles */
 .sidebar {
+  border-radius: 10px;
   background-color: #333333;
   padding-top: 40px;
   width: 370px;
 }
 
 .photo {
-  width: 370px;
+  width: 350px;
+  margin-left: 10px;
   margin-bottom: 50px;
+  border-radius: 50%;
 }
 
 .contacts,
@@ -288,7 +292,8 @@ h6 {
   color: #ffffff;
 }
 
-.tech-skills-text.solid {
+.tech-skills-text.solid,
+.languages-text.solid {
   text-decoration: line-through;
   color: rgba(247, 244, 244, 0.6);
 }
