@@ -216,9 +216,9 @@ body {
 }
 
 .photo {
-  width: 280px;
-  margin-left: 43px;
-  margin-bottom: 50px;
+  width: 260px;
+  margin-left: 54px;
+  margin-bottom: 70px;
   border-radius: 10px;
 }
 
@@ -263,7 +263,7 @@ body {
 }
 
 .interests {
-  margin-bottom: 90px;
+  margin-bottom: 100px;
 }
 
 .techskills-list {
