@@ -107,13 +107,19 @@ body {
 .projects-link {
   font-family: "Comfortaa", monospace;
   font-weight: 600;
-  color: #fb6d3a;
+  color: #303030;
   margin-left: 10px;
   cursor: pointer;
 }
 
 .projects-link:hover {
-  color: #595959;
+  color: #ff6c00;
+
+}
+
+.projects-link span {
+  color: #ff6c00;
+
 }
 
 .projects-bracket {
@@ -211,7 +217,7 @@ body {
 
 .photo {
   width: 280px;
-  margin-left: 45px;
+  margin-left: 43px;
   margin-bottom: 50px;
   border-radius: 10px;
 }
