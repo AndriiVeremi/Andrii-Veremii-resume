@@ -235,7 +235,7 @@ body {
 }
 
 .sidebar-title {
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   font-size: 22px;
   line-height: calc(27 / 22);
@@ -246,7 +246,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(24 / 14);
-  color: #ffffff;
+  color: #fff;
   margin-right: 10px;
 }
 
@@ -276,7 +276,7 @@ body {
 .soft-skills-list,
 .languages-list,
 .interests-list {
-  color: #ffffff;
+  color: #fff;
   padding: 0;
   margin-left: 17px;
 }
@@ -296,7 +296,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height:  calc(24 / 14);
-  color: #ffffff;
+  color: #fff;
 }
 
 .tech-skills-text.solid,
@@ -366,11 +366,20 @@ body {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 15px 40px;
+  padding: 12px 40px;
   border-radius: 5px;
   background-color: #fff;
+  transition: transform 250ms linear;
+  color: #ff6c00;
+  border: 1px solid #ff6c00;
 }
 
 .button.btn {
    top: 90%;
 }
+
+.button:hover {
+  
+}
+
+
