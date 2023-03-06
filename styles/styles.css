@@ -170,7 +170,7 @@ body {
   margin: 0;
 }
 
-.work-list-item {
+.work-item {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: #595959;
@@ -378,8 +378,6 @@ body {
    top: 90%;
 }
 
-.button:hover {
-  
-}
+
 
 
