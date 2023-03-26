@@ -1,4 +1,3 @@
-
 /* Reset styles */
 a {
   color: inherit;
@@ -39,7 +38,7 @@ body {
   padding: 105px 90px;
   border-radius: 10px;
   background-color: #fff;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* about styles */
@@ -116,12 +115,10 @@ body {
 
 .projects-link:hover {
   color: #ff6c00;
-
 }
 
 .projects-link span {
   color: #ff6c00;
-
 }
 
 .projects-bracket {
@@ -265,7 +262,7 @@ body {
 }
 
 .interests {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .skills-list {
