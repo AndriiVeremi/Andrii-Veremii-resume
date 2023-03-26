@@ -67,7 +67,7 @@ body {
   width: 600px;
   font-size: 14px;
   line-height: calc(24 / 14);
-  color: #595959;
+  color: #333333;
   font-style: italic;
 }
 
@@ -113,12 +113,12 @@ body {
   cursor: pointer;
 }
 
-.projects-link:hover {
-  color: #ff6c00;
+.projects-link span {
+  color: #fb6d3a;
 }
 
-.projects-link span {
-  color: #ff6c00;
+.projects-link span:hover {
+  text-shadow: 1px 1px 3px rgba(5, 5, 1, 0.8);
 }
 
 .projects-bracket {
@@ -204,6 +204,7 @@ body {
 
 .education-prof-link:hover {
   color: #fb6d3a;
+  text-shadow: 1px 1px 3px rgba(5, 5, 1, 0.8);
 }
 
 /* sidebar styles */
@@ -224,17 +225,18 @@ body {
 .contacts,
 .tech-skills,
 .soft-skills,
-.languages,
-.interests {
-  margin-left: 40px;
+.languages {
+  padding-left: 54px;
+  margin-bottom: 45px;
 }
 
-.contacts {
-  margin-bottom: 50px;
+.interests {
+  padding-left: 54px;
+  margin-bottom: 70px;
 }
 
 .sidebar-title {
-  color: #fff;
+  color: #eeeeee;
   font-weight: 700;
   font-size: 22px;
   line-height: calc(27 / 22);
@@ -255,20 +257,11 @@ body {
   color: #fb6d3a;
 }
 
-.tech-skills,
-.soft-skills,
-.languages {
-  margin-bottom: 45px;
-}
-
-.interests {
-  margin-bottom: 70px;
-}
-
 .skills-list {
   color: #fff;
   padding: 0;
-  margin-left: 17px;
+  margin: 0;
+  padding-left: 17px;
 }
 
 .skills-item {
@@ -320,7 +313,7 @@ body {
 }
 
 .social-item:hover .social-link {
-  fill: #ff6c00;
+  fill: #fb6d3a;
 }
 
 .thumb {
@@ -352,8 +345,8 @@ body {
   border-radius: 5px;
   background-color: #fff;
   transition: transform 250ms linear;
-  color: #ff6c00;
-  border: 1px solid #ff6c00;
+  color: #fb6d3a;
+  border: 1px solid #fb6d3a;
 }
 
 .button.btn {
