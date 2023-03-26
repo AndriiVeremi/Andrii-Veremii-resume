@@ -26,6 +26,7 @@ body {
 }
 
 /* main styles */
+
 .main {
   display: flex;
   flex-direction: row-reverse;
@@ -49,7 +50,7 @@ body {
 .about-position {
   margin-bottom: 20px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: calc(17 / 14);
   color: #000000;
 }
@@ -64,10 +65,11 @@ body {
 }
 
 .about-description {
-  width: 400px;
+  width: 600px;
   font-size: 14px;
   line-height: calc(24 / 14);
   color: #595959;
+  font-style: italic;
 }
 
 /* projects styles */
@@ -163,7 +165,7 @@ body {
 .line {
   font-size: 12px;
   line-height: calc(15 / 12);
-  color: #000;
+  color: #fb6d3a;
 }
 
 .work-list {
@@ -173,7 +175,7 @@ body {
 .work-item {
   font-size: 14px;
   line-height: calc(24 / 14);
-  color: #595959;
+  color: #000000;
 }
 
 /* education styles */
@@ -266,32 +268,17 @@ body {
   margin-bottom: 100px;
 }
 
-.techskills-list {
-  margin: 0;
-  padding: 0;
-  padding-left: 15px;
-}
-
-.tech-skills-list,
-.soft-skills-list,
-.languages-list,
-.interests-list {
+.skills-list {
   color: #fff;
   padding: 0;
   margin-left: 17px;
 }
 
-.languages-item,
-.tech-skills-item,
-.soft-skills-item,
-.interests-item {
+.skills-item {
   color: #fb6d3a;
 }
 
-.languages-text,
-.tech-skills-text,
-.soft-skills-text,
-.interests-text {
+.skills-text {
   font-family: "Comfortaa", monospace;
   font-weight: 500;
   font-size: 14px;
@@ -299,9 +286,7 @@ body {
   color: #fff;
 }
 
-.tech-skills-text.solid,
-.languages-text.solid,
-.soft-skills-text.solid {
+.solid {
   text-decoration: line-through;
   color: rgba(247, 244, 244, 0.6);
 }
